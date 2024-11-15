@@ -1,0 +1,46 @@
+/* Add this CSS to your existing CSS file or create a new one */
+/* Adjust styles as needed */
+
+
+/* earphones.css */
+
+/* Center all text */
+.earphone1, .earphone2, .earphone3, .earphone4, .earphone5, .earphone6 {
+  text-align: center;
+
+}
+.title40{
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: solid black;
+
+}
+.description41{
+  font-weight: 100;
+  font-size: 1.2em;
+  color: solid black;
+  width:1000px;
+  margin-left: 253px;
+
+}
+.price42{
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: solid black;
+}
+
+/* Style for individual earphone sections */
+.earphone1 img, .earphone2 img, .earphone3 img, .earphone4 img, .earphone5 img, .earphone6 img {
+  width: 800px;
+  height: 500px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.price, .description, .title {
+  margin: 10px 0;
+}
+
+

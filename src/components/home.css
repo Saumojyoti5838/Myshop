@@ -1,0 +1,805 @@
+/* styles.css */
+
+/* Navbar */
+
+/* home.css */
+.B {
+  width: 100%;
+padding-left: 50px;
+
+}
+
+.A {
+  width: 100%;
+  height: auto;
+}
+/* home.css */
+.mr-2 {
+  margin-right: 12%; 
+  /* Adjust this value to set the gap between buttons */
+}
+.mr-3 {
+  margin-right: 12%;
+   /* Adjust this value to set the gap between buttons */
+}
+.mr-5 {
+  margin-right: 12%; /* Adjust this value to set the gap between buttons */
+}
+.mr-6 {
+  margin-right: 12%;
+   /* Adjust this value to set the gap between buttons */
+}
+.mt-4{
+  padding-left: 15%;
+  margin: 2%;
+}
+.mt-5{
+  margin-left: 45%;
+}
+#step2
+.api-images-loaded {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+
+.frame0,
+.frame1,
+.frame2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px; /* Add margin between rows */
+  margin-left:-10px ;
+  gap:13px;
+}
+.card0,
+.card1,
+.card2,
+.card11,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+  flex-basis: calc(33.33% - 20px); /* 3 items in a row, adjusted for margin */
+}
+.card-body0,
+.card-body1,
+.card-body2,
+.card-body3,
+.card-body4,
+.card-body5,
+.card-body6,
+.card-body7,
+.card-body8 {
+  padding: 10px;
+}
+.card-title0,
+.card-title1,
+.card-title2
+{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.card-title3,
+.card-title4,
+.card-title5,
+.card-title6,
+.card-title7,
+.card-title8 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.card-text0,
+.card-text1,
+.card-text2
+{
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color:Solid black;
+  
+}
+
+.card-text10,
+.card-text11,
+.card-text12 {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  color:Solid black;
+  font-weight: bold;
+  
+}
+.card-text13,
+.card-text14,
+.card-text15,
+.card-text16,
+.card-text17,
+.card-text18 {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  color:Solid black;
+  font-weight: bold;
+  text-align: center;
+  
+}
+.card-img-top0,
+.card-img-top1,
+.card-img-top2,
+.card-img-top3,
+.card-img-top4,
+.card-img-top5,
+.card-img-top6,
+.card-img-top7,
+.card-img-top8 {
+  width: 400px;
+  height: 300px; /* Keep aspect ratio */
+  object-fit: cover;
+}
+  .featured-products {
+    display: flex;
+    flex-wrap: wrap; /* Allow products to wrap to the next line */
+    justify-content: space-around; /* Evenly distribute products */
+  }
+  /* home.css */
+.D {
+  display: flex;
+  width: 1500px;
+  margin-left: -107px;
+
+}
+
+.C,.K,.E,.F,.G {
+  height: 400px;
+  overflow: hidden; /* Hide any content that overflows the frame */
+
+}
+/* home.css */
+
+.frame3 {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly between items */
+  margin-left: -100px; /* Adjust this value to set the gap between images */
+}
+
+.sh1,
+.sh2,
+.sh3,
+.sh4,
+.sh5,
+.sh6 {
+  margin: 10px; /* Adjust this value to set the gap between images */
+}
+#step4
+.frame50 {
+  white-space: nowrap;
+  overflow-x: auto;
+  font-size: 0; /* Remove whitespace between inline-block elements */
+}
+.frame50::-webkit-scrollbar {
+  width: 20px; /* Set the width of the scroll bar */
+}
+
+.frame50::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scroll track */
+}
+
+.frame50::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scroll thumb */
+}
+
+.card-text50,
+.card-text51,
+.card-text52,
+.card-text53,
+.card-text54,
+.card-text55
+{
+font-size: 1.2em;
+text-align: center;
+font-weight: bolder;
+}
+.card-title50,
+.card-title51,
+.card-title52,
+.card-title53,
+.card-title54,
+.card-title55{
+  font-size: 1.2em;
+text-align: center;
+font-weight: bolder;
+}
+.card-img-top50,
+.card-img-top51,
+.card-img-top52,
+.card-img-top53,
+.card-img-top54,
+.card-img-top55
+{
+  margin-left: 1px;
+  width:300px;
+  height:230px ;
+}
+
+
+
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 13px; /* Arrange items in a column */
+}
+.price-tag {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+}
+.dis{
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center;
+}
+.left-image{
+  margin-left:-8%;
+}
+.right-image{
+ margin-left: 55%; /* Center the images horizontally */
+}
+
+.image-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 13px; /* Arrange items in a column */
+}
+
+.left-image2{
+  margin-left:-8%;
+}
+.right-image2{
+ margin-left: 55%; /* Center the images horizontally */
+}
+.AA {
+  width: 700px; /* Set the width of the carousel */
+  margin-left: -105px; /* Center the carousel horizontally */
+}
+
+.BB,
+.CC,
+.DD {
+  display: flex; /* Use flexbox for carousel items */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.BB img,
+.CC img,
+.DD img {
+  max-width: 100%; /* Ensure the images don't exceed the carousel item's width */
+  height: 500px; /* Set the height of the images */
+  object-fit: cover; /* Ensure the images cover the entire space */
+}
+.LL1 {
+  width: 700px; /* Set the width of the carousel */
+  margin-left: -15px; /* Center the carousel horizontally */
+}
+
+.LL2,
+.LL3,
+.LL4 {
+  display: flex; /* Use flexbox for carousel items */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.LL2 img,
+.LL3 img,
+.LL4 img {
+  max-width: 100%; /* Ensure the images don't exceed the carousel item's width */
+  height: 500px; /* Set the height of the images */
+  object-fit: cover; /* Ensure the images cover the entire space */
+}
+/* styles.css */
+
+.discount-animationleft {
+  position: absolute;
+  top: 1202%;
+  left: 880px; /* Adjust as needed */
+  transform: translateY(-50%);
+  background-color: #f3f2ec; /* Example background color */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  clip-path: polygon(100% 0, 100% 100%, 0 50%);
+  animation: twinkling 2s infinite; /* Apply the twinkling animation */
+  border: 40px solid transparent; /* Set initial border */
+}
+
+.discount-content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 28px;
+  padding-left: 120px;
+}
+
+@keyframes twinkling {
+  0%, 100% {
+    border-color: rgba(6, 3, 71, 0.8); /* Change border color for twinkling effect */
+  }
+  50% {
+    border-color: rgba(4, 84, 15, 0.384); /* Make border transparent for twinkling effect */
+  }
+}
+.discount-animationleft1 {
+  position: absolute;
+  top: 1356%;
+  left: 880px; /* Adjust as needed */
+  transform: translateY(-50%);
+  background-color: #f3f2ec; /* Example background color */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  clip-path: polygon(100% 0, 100% 100%, 0 50%);
+  animation: twinkling 2s infinite; /* Apply the twinkling animation */
+  border: 40px solid transparent; /* Set initial border */
+}
+
+.discount-content3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 28px;
+  padding-left: 120px;
+}
+
+@keyframes twinkling {
+  0%, 100% {
+    border-color: rgba(6, 3, 71, 0.8); /* Change border color for twinkling effect */
+  }
+  50% {
+    border-color: rgba(4, 84, 15, 0.384); /* Make border transparent for twinkling effect */
+  }
+}
+.discount-animationright {
+  position: absolute;
+  top: 1279%;
+  left: 110px; /* Adjust as needed */
+  transform: translateY(-50%);
+  background-color: #f3f2ec; /* Example background color */
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  clip-path: polygon(0 0, 100% 50%, 0 100%); /* Change clip-path direction to right side */
+  animation: twinkling 2s infinite; /* Apply the twinkling animation */
+  border: 40px solid transparent; /* Set initial border */
+}
+
+.discount-content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+@keyframes twinkling {
+  0%, 100% {
+    border-color: rgba(3, 82, 82, 0.639); /* Change border color for twinkling effect */
+  }
+  50% {
+    border-color: rgba(96, 33, 6, 0.696); /* Make border transparent for twinkling effect */
+  }
+}
+
+.discount-animationright1 {
+  position: absolute;
+  top: 1433%;
+  left: 110px; /* Adjust as needed */
+  transform: translateY(-50%);
+  background-color: #f3f2ec; /* Example background color */
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  clip-path: polygon(0 0, 100% 50%, 0 100%); /* Change clip-path direction to right side */
+  animation: twinkling 2s infinite; /* Apply the twinkling animation */
+  border: 40px solid transparent; /* Set initial border */
+}
+
+.discount-content4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+@keyframes twinkling {
+  0%, 100% {
+    border-color: rgba(3, 82, 82, 0.639); /* Change border color for twinkling effect */
+  }
+  50% {
+    border-color: rgba(96, 33, 6, 0.696); /* Make border transparent for twinkling effect */
+  }
+}
+.LL5{
+  width: 700px; /* Set the width of the carousel */
+  margin-left: -7px; /* Center the carousel horizontally */
+}
+
+.LL6,
+.LL7,
+.LL8{
+  display: flex; /* Use flexbox for carousel items */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.LL6 img,
+.LL7 img,
+.LL8 img {
+  max-width: 100%; /* Ensure the images don't exceed the carousel item's width */
+  height: 500px; /* Set the height of the images */
+  object-fit: cover; /* Ensure the images cover the entire space */
+}
+.RR1 {
+  width: 700px; /* Set the width of the carousel */
+  margin-left: -15px; /* Center the carousel horizontally */
+}
+
+.RR2,
+.RR3,
+.RR4 {
+  display: flex; /* Use flexbox for carousel items */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.RR2 img,
+.RR3 img,
+.RR4 img {
+  max-width: 100%; /* Ensure the images don't exceed the carousel item's width */
+  height: 500px; /* Set the height of the images */
+  object-fit: cover; /* Ensure the images cover the entire space */
+}
+.leftright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftright img {
+  width: 48%; /* Set the width of each image */
+  margin-bottom: 10px; /* Add some spacing between images */
+}
+
+/* Optional: Adjust the width and height of the container */
+ .container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.container2 {
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+}
+/* Optional: Style the container border and background */
+.container2 {
+  border: 1px solid #e40707;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: #20e519;
+  
+  margin-left:-1px;
+  margin-top: -2px;
+  height:500px;
+  gap:-5px;
+  padding-bottom: 2px;
+}
+.container1 {
+  border: 1px solid #0b2a91;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: #6d0364;
+  margin-left:-97px;
+  margin-top: -2px;
+  height:500px;
+  gap:-5px;
+  padding-bottom: 2px;
+}
+.container1 img{
+  height: 230px;
+  width:330px;
+margin-top: 5px;
+}
+.container2 img{
+  height: 230px;
+  width:330px;
+  margin-top: 5px;
+}
+.container3{
+  margin-left: 1px;
+ 
+}
+.container3 img{
+  width: 825px;
+  height: 493px;
+}
+.solar-system {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 10px ;
+  perspective: 1000px;
+}
+.solar-system h1{
+    text-align: center;
+}
+.Great{
+  margin-top: -50px;
+}
+.line-break {
+  margin-top: 159px; /* Adjust the value to increase or decrease the space */
+}
+
+
+.orbit {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform-style: preserve-3d;
+}
+
+.orbit img {
+  position: absolute;
+  width:150px;
+  height: 150px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.orbit1 img { animation: orbitAnimation 20s linear infinite; }
+.orbit2 img { animation: orbitAnimation 20s linear infinite reverse; }
+.orbit3 img { animation: orbitAnimation 20s linear infinite; }
+.orbit4 img { animation: orbitAnimation 20s linear infinite reverse; }
+.orbit5 img { animation: orbitAnimation 20s linear infinite; }
+
+@keyframes orbitAnimation {
+  0% {
+    transform: rotateY(0deg) translateZ(200px) rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg) translateZ(200px) rotateY(-360deg);
+  }
+}
+.After.animation {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to next row */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  margin-top: 240px; /* Optional: Add space below the images */
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card70,
+.card71,
+.card72,
+.card73,
+.card74,
+.card75,
+.card76{
+  width: 800px;
+ 
+  padding: 10px;
+  border: 1px solid #051e7592;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card-img-top70,
+.card-img-top71,
+  .card-img-top72,
+  .card-img-top73,
+  .card-img-top74,
+  .card-img-top75,
+  .card-img-top76{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-body70,
+.card-body71, 
+  .card-body72,
+  .card-body73,
+  .card-body74,
+  .card-body75,
+  .card-body76{
+  text-align: center;
+  width: 200px;
+  height: 70px;
+}
+
+.card-title70,
+.card-title71,
+.card-title72,
+.card-title73,
+.card-title74,
+.card-title75,
+.card-title76
+  {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.card-text70,
+.card-text71,
+.card-text72,
+.card-text73,
+.card-text74,
+.card-text75,
+.card-text76
+ {
+  font-size: 1.2rem;
+  color: solid black;
+  text-align: center;
+  font-weight: bold;
+
+ }
+.twoimages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /* Adjust the gap as needed */
+  margin-top: 10px;
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+}
+
+.twoimages img {
+  height: 450px;
+  width: 900px;
+  border: 2px solid transparent;
+  position: relative; /* Needed for z-index to work */
+  z-index: 1; /* Ensure image is above pseudo-elements */
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 26px;
+  gap: 1px;
+}
+
+.apicard {
+  flex-basis: calc(25% - 10px); /* 4 items in a row, adjusted for margin */
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 310px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 8.5px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 200px; /* Adjust width as needed */
+}
+
+.card-description {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: justify;
+  width: 250px; /* Adjust width as needed */
+ height: auto;
+}
+
+.card-price {
+  margin-top: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-category {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.card-rating {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.count {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/*Responsive*/
+/* Default styles */
+
+/* Your existing CSS here */
+/* Media query for responsiveness on mobile devices */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for mobile devices */
+  .frame0,
+  .frame1,
+  .frame2 {
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+  }
+
+  .card0,
+  .card1,
+  .card2,
+  .card11,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .card7,
+  .card8 {
+    flex-basis: calc(50% - 20px); /* 2 items in a row, adjusted for margin */
+  }
+
+  /* Adjust image size for mobile */
+  .card-img-top0,
+  .card-img-top1,
+  .card-img-top2,
+  .card-img-top3,
+  .card-img-top4,
+  .card-img-top5,
+  .card-img-top6,
+  .card-img-top7,
+  .card-img-top8 {
+    width: 100%; /* Set the width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Add more adjustments as needed */
+}
+@media only screen and (max-width: 768px) {
+  .featured-products {
+    justify-content: center; /* Center products on smaller screens */
+  }
+}

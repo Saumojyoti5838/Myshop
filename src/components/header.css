@@ -1,0 +1,87 @@
+.nav {
+  display: flex;
+  justify-content: space-between; /* Align navbar items evenly */
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row; /* Arrange navbar items horizontally */
+  gap: 7px; /* Add gap between navbar items */
+}
+
+.nav-link {
+  padding: 0.9rem 10rem; /* Adjust padding for navbar links */
+  margin-left: 68px; /* Shift the "Home" nav item slightly to the left */
+}
+
+
+.navbar-collapse {
+  justify-content: flex-end; /* Align navbar items to the right */
+}
+
+.form {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Align items vertically */
+  margin-right: 10px; /* Add margin to the right of the search form */
+}
+
+.form-control {
+  flex: 1; /* Allow the input to grow and shrink to fit the available space */
+  margin-right: 10px; /* Add margin to the right of the input */
+}
+
+.btn {
+  margin-left: 10px; /* Add margin to the left of the button */
+}
+
+/*responsive*/
+/* Your existing CSS here */
+
+/* Media query for responsiveness on mobile devices */
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: stretch; /* Stretch items to full width */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Stack navbar items vertically */
+    gap: 10px; /* Add gap between navbar items */
+  }
+
+  .nav-link {
+    padding: 10px; /* Adjust padding for navbar links */
+    text-align: center; /* Center text in navbar links */
+    margin: 0; /* Remove margin to avoid extra spacing */
+  }
+
+  .navbar-collapse {
+    justify-content: center; /* Align navbar items to the center */
+  }
+
+  .form {
+    margin: 10px 0; /* Add margin above and below the search form */
+  }
+
+  .form-control {
+    width: 100%; /* Set input width to 100% */
+  }
+
+  .btn {
+    width: 100%; /* Set button width to 100% */
+    margin-top: 10px; /* Add margin on top of the button */
+  }
+}
+
+/* Ensure the styles outside the media query apply to larger screens */
+
+/* For medium-sized devices (e.g., tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Add adjustments for medium-sized devices here */
+}
+
+/* For larger devices (e.g., desktops) */
+@media only screen and (min-width: 1024px) {
+  /* Add adjustments for larger devices here */
+}
